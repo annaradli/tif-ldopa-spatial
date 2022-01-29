@@ -32,7 +32,7 @@ Performed fastQC and md5sum checking.<br />
 Downloaded new spaceranger v1.3.1  from 10x Genomics webiste. Uploaded fastq.gz files to the server. New project - "tif-ldopa". <br />
 
 ### 2022-01-28
-Checked md5sums of spaceranger, refernce genome assembly (from the risperidone project), and fastq.gz files. All correct. Prepended new spaceranger Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Ran analysis on first of the samples from 16:52 - ... 19:07 still not finished.- <br />
+Checked md5sums of spaceranger, refernce genome assembly (from the risperidone project), and fastq.gz files. All correct. Prepended new spaceranger Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Ran analysis on first of the samples from 16:52 - .21:02.- <br />
 
 Renamed the fastq files in the following (Illumina) [convention](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/NamingConvention_FASTQ-files-swBS.htm): <br /> 
 
@@ -45,6 +45,8 @@ S5023Nr3.2.fastq.gz S5023Nr1_S3_L001_R2_001.fastq.gz <br />
 S5023Nr4.2.fastq.gz S5023Nr1_S4_L001_R2_001.fastq.gz <br />
 S5023Nr4.1.fastq.gz S5023Nr1_S4_L001_R1_001.fastq.gz <br />
 
+### 2022-01-29
+hanged names of the fastq files (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied the yesterdays data to a pendrive.
 
 ### Software => UPDATE
 * spaceranger v1.3.1
