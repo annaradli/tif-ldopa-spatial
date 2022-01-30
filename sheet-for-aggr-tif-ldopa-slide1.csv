@@ -1,0 +1,5 @@
+library_id,molecule_h5,cloupe_file,genotype,treatment
+S5023Nr1,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr1/outs/molecule_info.h5,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr1/outs/cloupe.cloupe ,mutant,saline
+S5023Nr2,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr2/outs/molecule_info.h5,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr2/outs/cloupe.cloupe ,mutant,L-DOPA
+S5023Nr3,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr3/outs/molecule_info.h5,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr3/outs/cloupe.cloupe ,mutant,L-DOPA
+S5023Nr4,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr4/outs/molecule_info.h5,/home/ifpan/projects/ifpan-annaradli-spatialtrial/tif-ldopa/results/runs/new-runs/S5023Nr4/outs/cloupe.cloupe ,mutant,saline
