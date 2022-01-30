@@ -47,6 +47,14 @@ S5023Nr4.1.fastq.gz S5023Nr1_S4_L001_R1_001.fastq.gz <br />
 
 ### 2022-01-29
 hanged names of the fastq files (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied the yesterdays data to a pendrive.
+S5023Nr1.1.fastq.gz => S5023Nr1_S1_L001_R1_001.fastq.gz <br />
+S5023Nr1.2.fastq.gz => S5023Nr1_S1_L001_R2_001.fastq.gz <br />
+S5023Nr2.2.fastq.gz => S5023Nr2_S2_L001_R2_001.fastq.gz <br />
+S5023Nr2.1.fastq.gz => S5023Nr2_S2_L001_R1_001.fastq.gz <br />
+S5023Nr3.1.fastq.gz => S5023Nr3_S3_L001_R1_001.fastq.gz <br />
+S5023Nr3.2.fastq.gz => S5023Nr3_S3_L001_R2_001.fastq.gz <br />
+S5023Nr4.2.fastq.gz => S5023Nr4_S4_L001_R2_001.fastq.gz <br />
+S5023Nr4.1.fastq.gz => S5023Nr4_S4_L001_R1_001.fastq.gz <br />
 
 ### 2022-01-30
 Copied cloupe and html files onto pendrive. Ran spaceranger aggr.
