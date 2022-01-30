@@ -48,6 +48,9 @@ S5023Nr4.1.fastq.gz S5023Nr1_S4_L001_R1_001.fastq.gz <br />
 ### 2022-01-29
 hanged names of the fastq files (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied the yesterdays data to a pendrive.
 
+### 2022-01-30
+Copied cloupe and html files onto pendrive. Ran spaceranger aggr.
+
 ### Software => UPDATE
 * spaceranger v1.3.1
 * mouse genome mm10 Reference - 2020-A 
