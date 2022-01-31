@@ -13,7 +13,7 @@
 |4|D1| 3-4 | mutant saline  | D3 |
 
 ### RNA-seq samples summary 
-|Library number ID|Filename|Sequence type|FastQC failed parameters|
+|Library ID|Filename|Sequence type|FastQC failed parameters|
 |---|---|---|---|
 |1|S5023Nr1.1|Read 1|Sequence Duplication Levels|
 |1|S5023Nr1.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
@@ -46,7 +46,7 @@ S5023Nr4.2.fastq.gz S5023Nr1_S4_L001_R2_001.fastq.gz <br />
 S5023Nr4.1.fastq.gz S5023Nr1_S4_L001_R1_001.fastq.gz <br />
 
 ### 2022-01-29
-Changed names of the fastq files into the correct ones (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied the yesterdays data to a pendrive. <br />
+Changed names of the fastq files into the correct ones (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied yesterday's data to a pendrive. <br />
 Downloaded file names => changed, correct new names, necessary for the analysis <br />
 S5023Nr1.1.fastq.gz => S5023Nr1_S1_L001_R1_001.fastq.gz <br />
 S5023Nr1.2.fastq.gz => S5023Nr1_S1_L001_R2_001.fastq.gz <br />
