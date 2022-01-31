@@ -3,26 +3,26 @@
 <h2>Description of the project</h2>
 
 
-### samples summary
+### Samples summary
 
 |Library ID| Visium Slide Area ID | Mouse ID | Group | Double TT Index Well ID|
 |---------| -------------------- | -------- | ------| -----------------------|
 |1| A1                   | 1-1      | mutant saline | A3 |
 |2|B1| 2-2 | mutant L-DOPA | B3|
-|3|C1| 3-2 | L-DOPA  | C3|
+|3|C1| 3-2 | mutant L-DOPA  | C3|
 |4|D1| 3-4 | mutant saline  | D3 |
 
-### RNA-seq samples summary => TODO
-|Sample ID|Filename|Sequence type|FastQC failed parameters|
+### RNA-seq samples summary 
+|Library number ID|Filename|Sequence type|FastQC failed parameters|
 |---|---|---|---|
-|A|S3647Nr1.1|Read 1|Sequence Duplication Levels|
-|A|S3647Nr1.2|Read 2|Sequence Duplication Levels, Per sequence GC content|
-|B|S3647Nr2.1|Read 1|Sequence Duplication Levels|
-|B|S3647Nr2.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
-|C|S3647Nr3.1|Read 1|Sequence Duplication Levels|
-|C|S3647Nr3.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
-|D|S3647Nr4.1|Read 1|Sequence Duplication Levels|
-|D|S3647Nr4.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|1|S5023Nr1.1|Read 1|Sequence Duplication Levels|
+|1|S5023Nr1.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|2|S5023Nr2.1|Read 1|Sequence Duplication Levels|
+|2|S5023Nr2.2|Read 2|Sequence Duplication Levels, Per sequence GC content|
+|3|S5023Nr3.1|Read 1|Sequence Duplication Levels|
+|3|S5023Nr3.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences, Per base sequence content|
+|4|S5023Nr4.1|Read 1|Sequence Duplication Levels|
+|4|S5023Nr4.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
 
 <h2>Labnotes</h2>
 Downloaded RNA-seq data. <br />
@@ -32,9 +32,9 @@ Performed fastQC and md5sum checking.<br />
 Downloaded new spaceranger v1.3.1  from 10x Genomics webiste. Uploaded fastq.gz files to the server. New project - "tif-ldopa". <br />
 
 ### 2022-01-28
-Checked md5sums of spaceranger, refernce genome assembly (from the risperidone project), and fastq.gz files. All correct. Prepended new spaceranger Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Ran analysis on first of the samples from 16:52 - .21:02.- <br />
+Checked md5sums of spaceranger, refernce genome assembly (from the risperidone project), and fastq.gz files. All correct. Prepended new spaceranger Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Ran analysis on first of the samples from 16:52 - .21:02. but with WRONG ARGUMENTS!- <br />
 
-Renamed the fastq files in the following (Illumina) [convention](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/NamingConvention_FASTQ-files-swBS.htm): <br /> 
+Renamed the fastq files in the following (Illumina) [convention](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/NamingConvention_FASTQ-files-swBS.htm): <br /> ==> HENCE, THE WRONG AND TIME CONSUMING ANALYSIS! Because every file started with "S5023Nr1"!
 
 S5023Nr1.1.fastq.gz S5023Nr1_S1_L001_R1_001.fastq.gz <br />
 S5023Nr1.2.fastq.gz S5023Nr1_S1_L001_R2_001.fastq.gz <br />
@@ -46,7 +46,8 @@ S5023Nr4.2.fastq.gz S5023Nr1_S4_L001_R2_001.fastq.gz <br />
 S5023Nr4.1.fastq.gz S5023Nr1_S4_L001_R1_001.fastq.gz <br />
 
 ### 2022-01-29
-hanged names of the fastq files (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied the yesterdays data to a pendrive.
+Changed names of the fastq files into the correct ones (S5023Nr2_S2, etc.) and ran a new analysis on all 4 samples. Also, copied the yesterdays data to a pendrive.
+Downloaded file names => changed, correct new names, necessary for the analysis
 S5023Nr1.1.fastq.gz => S5023Nr1_S1_L001_R1_001.fastq.gz <br />
 S5023Nr1.2.fastq.gz => S5023Nr1_S1_L001_R2_001.fastq.gz <br />
 S5023Nr2.2.fastq.gz => S5023Nr2_S2_L001_R2_001.fastq.gz <br />
@@ -57,18 +58,15 @@ S5023Nr4.2.fastq.gz => S5023Nr4_S4_L001_R2_001.fastq.gz <br />
 S5023Nr4.1.fastq.gz => S5023Nr4_S4_L001_R1_001.fastq.gz <br />
 
 ### 2022-01-30
-Copied cloupe and html files onto pendrive. Ran spaceranger aggr.
+Copied cloupe and .html files onto pendrive. Copied all results into external disc. Ran spaceranger aggr.
 
-### Software => UPDATE
+### 2022-01-31
+Ran FASTQC on samples (on the local machine, files on extrernal disc).
+
+### Software 
 * spaceranger v1.3.1
 * mouse genome mm10 Reference - 2020-A 
 * fastQC v0.11.8
 * md5sum v8.28
-* Loupe Browser v5.0/v5.1.0
-* mrc: v4.0.2
-* mrp: v4.0.2 
-* Anaconda: numpy: 1.15.4, scipy: 1.1.0, pysam: 0.16.0.1, h5py: 2.8.0, pandas: 0.24.2
-* STAR: 2.7.2a
-* samtools 1.10
-* htslib 1.10.2
-* Martian Runtime v4.0.2
+* Loupe Browser v6.0
+
