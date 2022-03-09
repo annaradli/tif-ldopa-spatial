@@ -7,11 +7,21 @@
 
 |Library ID| Visium Slide Area ID | Mouse ID | Group | Cohort| Double TT Index Well ID|Name Prefix|Slide no.|Slide ID|
 |---------| -------------------- | -------- | ------| -------|---------------|------------|---------|--------|
-|1| A1                   | 1-1      | mutant saline | A3 | S5023Nr1|1|V11A27-406|
-|2|B1| 2-2 | mutant L-DOPA | B3| S5023Nr2|
-|3|C1| 3-2 | mutant L-DOPA  | C3|S5023Nr3|
-|4|D1| 3-4 | mutant saline  | D3 |S5023Nr4|
-|5|A1|5-1
+|1| A1                   | 1-1      | mutant saline |1| A3 | S5023Nr1|1|V11A27-406|
+|2|B1| 2-2 | mutant L-DOPA | B3|1| S5023Nr2|1|V11A27-406|
+|3|C1| 3-2 | mutant L-DOPA  | C3|1|S5023Nr3|1|V11A27-406|
+|4|D1| 3-4 | mutant saline  | D3 |1|S5023Nr4|1|V11A27-406|
+|5|A1|5-1|group|A4|1|S5295Nr1|2|V11A27-285|
+|6|B1|5-3|group|B4|1|S5295Nr2|2|V11A27-285|
+|7|C1|6-1|group|C4|2|S5295Nr3|2|V11A27-285|
+|8|D1|6-2|group|D4|2|S5295Nr4|2|V11A27-285|
+|5|A1|11-1|mutant |A5|2|S5295Nr5|3|V11U14-024|
+|6|B1|10-3|mutant|B5|2|S5295Nr6|3|V11U14-024|
+|7|C1|11-3|mutant saline|C5|2|S5295Nr7|3|V11U14-024|
+|8|D1|11-2|control saline|D5|2|S5295Nr8|3|V11U14-024|
+
+
+
 
 ### RNA-seq samples summary 
 |Library ID|Filename|Sequence type|FastQC failed parameters|
