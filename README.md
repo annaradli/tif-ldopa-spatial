@@ -1,16 +1,17 @@
-# tif-ldopa-slide1
+# tif-ldopa-slides
 
 <h2>Description of the project</h2>
 
 
-### Samples summary
+### All Samples summary
 
-|Library ID| Visium Slide Area ID | Mouse ID | Group | Double TT Index Well ID|
-|---------| -------------------- | -------- | ------| -----------------------|
-|1| A1                   | 1-1      | mutant saline | A3 |
-|2|B1| 2-2 | mutant L-DOPA | B3|
-|3|C1| 3-2 | mutant L-DOPA  | C3|
-|4|D1| 3-4 | mutant saline  | D3 |
+|Library ID| Visium Slide Area ID | Mouse ID | Group | Cohort| Double TT Index Well ID|Name Prefix|Slide no.|Slide ID|
+|---------| -------------------- | -------- | ------| -------|---------------|------------|---------|--------|
+|1| A1                   | 1-1      | mutant saline | A3 | S5023Nr1|1|V11A27-406|
+|2|B1| 2-2 | mutant L-DOPA | B3| S5023Nr2|
+|3|C1| 3-2 | mutant L-DOPA  | C3|S5023Nr3|
+|4|D1| 3-4 | mutant saline  | D3 |S5023Nr4|
+|5|A1|5-1
 
 ### RNA-seq samples summary 
 |Library ID|Filename|Sequence type|FastQC failed parameters|
@@ -62,6 +63,14 @@ Copied cloupe and .html files onto pendrive. Copied all results into external di
 
 ### 2022-01-31
 Ran FASTQC on samples (on the local machine, files on extrernal disc).
+
+### 2022-03-08
+Downloaded the next 8 sequenced libraries.
+
+### 2022-03-09
+Uploaded RNA-seq data to the server together with .tif and .json files.
+
+
 
 ### Software 
 * spaceranger v1.3.1
