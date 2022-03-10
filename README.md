@@ -80,6 +80,38 @@ Downloaded the next 8 sequenced libraries.
 ### 2022-03-09
 Uploaded RNA-seq data to the server together with .tif and .json files.
 
+### 2022-03-10 
+Renamed the read files (.fastq.gz) in accordance with the Illumina convention (see the link above).
+
+S5295Nr1.1.fastq.gz  S5295Nr1_S1_L001_R1_001.fastq.gz
+S5295Nr1.2.fastq.gz  S5295Nr1_S1_L001_R2_001.fastq.gz
+
+S5295Nr2.1.fastq.gz  S5295Nr2_S2_L001_R1_001.fastq.gz
+S5295Nr2.2.fastq.gz  S5295Nr2_S2_L001_R2_001.fastq.gz
+
+S5295Nr3.1.fastq.gz	 S5295Nr3_S3_L001_R1_001.fastq.gz	
+S5295Nr3.2.fastq.gz	 S5295Nr3_S3_L001_R2_001.fastq.gz
+
+S5295Nr4.1.fastq.gz  S5295Nr4_S4_L001_R1_001.fastq.gz
+S5295Nr4.2.fastq.gz  S5295Nr4_S4_L001_R2_001.fastq.gz
+
+S5295Nr5.1.fastq.gz  S5295Nr5_S5_L001_R1_001.fastq.gz
+S5295Nr5.2.fastq.gz  S5295Nr5_S5_L001_R2_001.fastq.gz
+
+S5295Nr6.1.fastq.gz  S5295Nr6_S6_L001_R1_001.fastq.gz
+S5295Nr6.2.fastq.gz	 S5295Nr6_S6_L001_R2_001.fastq.gz
+
+S5295Nr7.1.fastq.gz  S5295Nr7_S7_L001_R1_001.fastq.gz
+S5295Nr7.2.fastq.gz  S5295Nr7_S7_L001_R2_001.fastq.gz
+
+S5295Nr8.1.fastq.gz  S5295Nr8_S8_L001_R1_001.fastq.gz
+S5295Nr8.2.fastq.gz  S5295Nr8_S8_L001_R2_001.fastq.gz
+
+Furthermore:
+* Checked the md5sums
+* Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Spaceranger v 1.3.1. (as in the case of analysis of the 1st L-DOPA slide).
+* Ran the whole analysis in pipe (with \ new lines and && operator - sequentially). Start at 11:11 local time (10:11 on the server).
+* Ran the fastqc.
 
 
 ### Software 
