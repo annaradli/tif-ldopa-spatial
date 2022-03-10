@@ -11,14 +11,14 @@
 |2|B1| 2-2 | mutant L-DOPA |1| B3| S5023Nr2|1|V11A27-406|
 |3|C1| 3-2 | mutant L-DOPA  |1| C3|S5023Nr3|1|V11A27-406|
 |4|D1| 3-4 | mutant saline |1| D3 |S5023Nr4|1|V11A27-406|
-|5|A1|5-1|group |1|A4|S5295Nr1|2|V11A27-285|
-|6|B1|5-3|group|1|B4|S5295Nr2|2|V11A27-285|
-|7|C1|6-1|group|2|C4|S5295Nr3|2|V11A27-285|
-|8|D1|6-2|group|2|D4|S5295Nr4|2|V11A27-285|
-|5|A1|11-1|mutant |2|A5|S5295Nr5|3|V11U14-024|
-|6|B1|10-3|mutant|2|B5|S5295Nr6|3|V11U14-024|
+|5|A1|5-1|mutant saline |1|A4|S5295Nr1|2|V11A27-285|
+|6|B1|5-3|mutant L-DOPA|1|B4|S5295Nr2|2|V11A27-285|
+|7|C1|6-1|mutant L-DOPA|2|C4|S5295Nr3|2|V11A27-285|
+|8|D1|6-2|control saline|2|D4|S5295Nr4|2|V11A27-285|
+|5|A1|11-1|control saline |2|A5|S5295Nr5|3|V11U14-024|
+|6|B1|10-3|mutant saline|2|B5|S5295Nr6|3|V11U14-024|
 |7|C1|11-3|mutant saline|2|C5|S5295Nr7|3|V11U14-024|
-|8|D1|11-2|control saline|2|D5|S5295Nr8|3|V11U14-024|
+|8|D1|11-2|mutant L-DOPA|2|D5|S5295Nr8|3|V11U14-024|
 
 
 
@@ -83,35 +83,35 @@ Uploaded RNA-seq data to the server together with .tif and .json files.
 ### 2022-03-10 
 Renamed the read files (.fastq.gz) in accordance with the Illumina convention (see the link above).
 
-S5295Nr1.1.fastq.gz  S5295Nr1_S1_L001_R1_001.fastq.gz
-S5295Nr1.2.fastq.gz  S5295Nr1_S1_L001_R2_001.fastq.gz
+S5295Nr1.1.fastq.gz => S5295Nr1_S1_L001_R1_001.fastq.gz
+S5295Nr1.2.fastq.gz => S5295Nr1_S1_L001_R2_001.fastq.gz
 
-S5295Nr2.1.fastq.gz  S5295Nr2_S2_L001_R1_001.fastq.gz
-S5295Nr2.2.fastq.gz  S5295Nr2_S2_L001_R2_001.fastq.gz
+S5295Nr2.1.fastq.gz => S5295Nr2_S2_L001_R1_001.fastq.gz
+S5295Nr2.2.fastq.gz => S5295Nr2_S2_L001_R2_001.fastq.gz
 
-S5295Nr3.1.fastq.gz	 S5295Nr3_S3_L001_R1_001.fastq.gz	
-S5295Nr3.2.fastq.gz	 S5295Nr3_S3_L001_R2_001.fastq.gz
+S5295Nr3.1.fastq.gz	=> S5295Nr3_S3_L001_R1_001.fastq.gz	
+S5295Nr3.2.fastq.gz	=> S5295Nr3_S3_L001_R2_001.fastq.gz
 
-S5295Nr4.1.fastq.gz  S5295Nr4_S4_L001_R1_001.fastq.gz
-S5295Nr4.2.fastq.gz  S5295Nr4_S4_L001_R2_001.fastq.gz
+S5295Nr4.1.fastq.gz => S5295Nr4_S4_L001_R1_001.fastq.gz
+S5295Nr4.2.fastq.gz => S5295Nr4_S4_L001_R2_001.fastq.gz
 
-S5295Nr5.1.fastq.gz  S5295Nr5_S5_L001_R1_001.fastq.gz
-S5295Nr5.2.fastq.gz  S5295Nr5_S5_L001_R2_001.fastq.gz
+S5295Nr5.1.fastq.gz => S5295Nr5_S5_L001_R1_001.fastq.gz
+S5295Nr5.2.fastq.gz => S5295Nr5_S5_L001_R2_001.fastq.gz
 
-S5295Nr6.1.fastq.gz  S5295Nr6_S6_L001_R1_001.fastq.gz
-S5295Nr6.2.fastq.gz	 S5295Nr6_S6_L001_R2_001.fastq.gz
+S5295Nr6.1.fastq.gz => S5295Nr6_S6_L001_R1_001.fastq.gz
+S5295Nr6.2.fastq.gz	=> S5295Nr6_S6_L001_R2_001.fastq.gz
 
-S5295Nr7.1.fastq.gz  S5295Nr7_S7_L001_R1_001.fastq.gz
-S5295Nr7.2.fastq.gz  S5295Nr7_S7_L001_R2_001.fastq.gz
+S5295Nr7.1.fastq.gz => S5295Nr7_S7_L001_R1_001.fastq.gz
+S5295Nr7.2.fastq.gz => S5295Nr7_S7_L001_R2_001.fastq.gz
 
-S5295Nr8.1.fastq.gz  S5295Nr8_S8_L001_R1_001.fastq.gz
-S5295Nr8.2.fastq.gz  S5295Nr8_S8_L001_R2_001.fastq.gz
+S5295Nr8.1.fastq.gz => S5295Nr8_S8_L001_R1_001.fastq.gz
+S5295Nr8.2.fastq.gz => S5295Nr8_S8_L001_R2_001.fastq.gz
 
 Furthermore:
 * Checked the md5sums
 * Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Spaceranger v 1.3.1. (as in the case of analysis of the 1st L-DOPA slide).
 * Ran the whole analysis in pipe (with \ new lines and && operator - sequentially). Start at 11:11 local time (10:11 on the server).
-* Ran the fastqc.
+* Ran the fastq - on the local machine.
 
 
 ### Software 
