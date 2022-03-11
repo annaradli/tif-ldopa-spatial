@@ -131,7 +131,7 @@ Furthermore:
 * Ran the FastQC - on the local machine. Unzipping all files with `unzip *.zip` was not successful so I had to perform unzipping on each file separately the next day.
 
 ### 2022-03-11
-Ran `spaceranger aggr` function as mentioned above. All analyses script are presented [here](https://gist.github.com/annaradli/5c34230b8ccf3c54c64fc89b5956bef3).
+Ran `spaceranger aggr` function as mentioned above. The script for all the analyses is [here](https://gist.github.com/annaradli/5c34230b8ccf3c54c64fc89b5956bef3).
 Full fastQC analysis is [here](https://gist.github.com/annaradli/89a6d08b691c704a2349eecd65232887).
 
 ### Software 
