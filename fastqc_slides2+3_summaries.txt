@@ -1,0 +1,176 @@
+PASS	Basic Statistics	S5295Nr1.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr1.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr1.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr1.1.fastq.gz
+WARN	Per base sequence content	S5295Nr1.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr1.1.fastq.gz
+PASS	Per base N content	S5295Nr1.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr1.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr1.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr1.1.fastq.gz
+PASS	Adapter Content	S5295Nr1.1.fastq.gz
+PASS	Basic Statistics	S5295Nr1.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr1.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr1.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr1.2.fastq.gz
+WARN	Per base sequence content	S5295Nr1.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr1.2.fastq.gz
+PASS	Per base N content	S5295Nr1.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr1.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr1.2.fastq.gz
+FAIL	Overrepresented sequences	S5295Nr1.2.fastq.gz
+PASS	Adapter Content	S5295Nr1.2.fastq.gz
+PASS	Basic Statistics	S5295Nr2.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr2.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr2.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr2.1.fastq.gz
+FAIL	Per base sequence content	S5295Nr2.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr2.1.fastq.gz
+PASS	Per base N content	S5295Nr2.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr2.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr2.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr2.1.fastq.gz
+PASS	Adapter Content	S5295Nr2.1.fastq.gz
+PASS	Basic Statistics	S5295Nr2.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr2.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr2.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr2.2.fastq.gz
+WARN	Per base sequence content	S5295Nr2.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr2.2.fastq.gz
+PASS	Per base N content	S5295Nr2.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr2.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr2.2.fastq.gz
+FAIL	Overrepresented sequences	S5295Nr2.2.fastq.gz
+PASS	Adapter Content	S5295Nr2.2.fastq.gz
+PASS	Basic Statistics	S5295Nr3.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr3.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr3.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr3.1.fastq.gz
+FAIL	Per base sequence content	S5295Nr3.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr3.1.fastq.gz
+PASS	Per base N content	S5295Nr3.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr3.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr3.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr3.1.fastq.gz
+PASS	Adapter Content	S5295Nr3.1.fastq.gz
+PASS	Basic Statistics	S5295Nr3.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr3.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr3.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr3.2.fastq.gz
+WARN	Per base sequence content	S5295Nr3.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr3.2.fastq.gz
+PASS	Per base N content	S5295Nr3.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr3.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr3.2.fastq.gz
+WARN	Overrepresented sequences	S5295Nr3.2.fastq.gz
+PASS	Adapter Content	S5295Nr3.2.fastq.gz
+PASS	Basic Statistics	S5295Nr4.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr4.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr4.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr4.1.fastq.gz
+FAIL	Per base sequence content	S5295Nr4.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr4.1.fastq.gz
+PASS	Per base N content	S5295Nr4.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr4.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr4.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr4.1.fastq.gz
+PASS	Adapter Content	S5295Nr4.1.fastq.gz
+PASS	Basic Statistics	S5295Nr4.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr4.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr4.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr4.2.fastq.gz
+WARN	Per base sequence content	S5295Nr4.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr4.2.fastq.gz
+PASS	Per base N content	S5295Nr4.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr4.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr4.2.fastq.gz
+WARN	Overrepresented sequences	S5295Nr4.2.fastq.gz
+PASS	Adapter Content	S5295Nr4.2.fastq.gz
+PASS	Basic Statistics	S5295Nr5.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr5.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr5.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr5.1.fastq.gz
+WARN	Per base sequence content	S5295Nr5.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr5.1.fastq.gz
+PASS	Per base N content	S5295Nr5.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr5.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr5.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr5.1.fastq.gz
+PASS	Adapter Content	S5295Nr5.1.fastq.gz
+PASS	Basic Statistics	S5295Nr5.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr5.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr5.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr5.2.fastq.gz
+WARN	Per base sequence content	S5295Nr5.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr5.2.fastq.gz
+PASS	Per base N content	S5295Nr5.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr5.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr5.2.fastq.gz
+FAIL	Overrepresented sequences	S5295Nr5.2.fastq.gz
+PASS	Adapter Content	S5295Nr5.2.fastq.gz
+PASS	Basic Statistics	S5295Nr6.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr6.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr6.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr6.1.fastq.gz
+WARN	Per base sequence content	S5295Nr6.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr6.1.fastq.gz
+PASS	Per base N content	S5295Nr6.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr6.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr6.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr6.1.fastq.gz
+PASS	Adapter Content	S5295Nr6.1.fastq.gz
+PASS	Basic Statistics	S5295Nr6.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr6.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr6.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr6.2.fastq.gz
+WARN	Per base sequence content	S5295Nr6.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr6.2.fastq.gz
+PASS	Per base N content	S5295Nr6.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr6.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr6.2.fastq.gz
+WARN	Overrepresented sequences	S5295Nr6.2.fastq.gz
+PASS	Adapter Content	S5295Nr6.2.fastq.gz
+PASS	Basic Statistics	S5295Nr7.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr7.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr7.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr7.1.fastq.gz
+WARN	Per base sequence content	S5295Nr7.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr7.1.fastq.gz
+PASS	Per base N content	S5295Nr7.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr7.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr7.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr7.1.fastq.gz
+PASS	Adapter Content	S5295Nr7.1.fastq.gz
+PASS	Basic Statistics	S5295Nr7.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr7.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr7.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr7.2.fastq.gz
+WARN	Per base sequence content	S5295Nr7.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr7.2.fastq.gz
+PASS	Per base N content	S5295Nr7.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr7.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr7.2.fastq.gz
+FAIL	Overrepresented sequences	S5295Nr7.2.fastq.gz
+PASS	Adapter Content	S5295Nr7.2.fastq.gz
+PASS	Basic Statistics	S5295Nr8.1.fastq.gz
+PASS	Per base sequence quality	S5295Nr8.1.fastq.gz
+PASS	Per tile sequence quality	S5295Nr8.1.fastq.gz
+PASS	Per sequence quality scores	S5295Nr8.1.fastq.gz
+WARN	Per base sequence content	S5295Nr8.1.fastq.gz
+PASS	Per sequence GC content	S5295Nr8.1.fastq.gz
+PASS	Per base N content	S5295Nr8.1.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr8.1.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr8.1.fastq.gz
+PASS	Overrepresented sequences	S5295Nr8.1.fastq.gz
+PASS	Adapter Content	S5295Nr8.1.fastq.gz
+PASS	Basic Statistics	S5295Nr8.2.fastq.gz
+PASS	Per base sequence quality	S5295Nr8.2.fastq.gz
+PASS	Per tile sequence quality	S5295Nr8.2.fastq.gz
+PASS	Per sequence quality scores	S5295Nr8.2.fastq.gz
+WARN	Per base sequence content	S5295Nr8.2.fastq.gz
+FAIL	Per sequence GC content	S5295Nr8.2.fastq.gz
+PASS	Per base N content	S5295Nr8.2.fastq.gz
+PASS	Sequence Length Distribution	S5295Nr8.2.fastq.gz
+FAIL	Sequence Duplication Levels	S5295Nr8.2.fastq.gz
+WARN	Overrepresented sequences	S5295Nr8.2.fastq.gz
+PASS	Adapter Content	S5295Nr8.2.fastq.gz
