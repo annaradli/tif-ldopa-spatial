@@ -34,6 +34,22 @@
 |3|S5023Nr3.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences, Per base sequence content|
 |4|S5023Nr4.1|Read 1|Sequence Duplication Levels|
 |4|S5023Nr4.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|5|S5295Nr1.1|Read 1|Sequence Duplication Levels|
+|5|S5295Nr1.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|6|S5295Nr2.1|Read 1|Sequence Duplication Levels, Per sequence GC content|
+|6|S5295Nr2.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|7|S5295Nr3.1|Read 1|Sequence Duplication Levels, Per sequence GC content|
+|7|S5295Nr3.2|Read 2|Sequence Duplication Levels, Per sequence GC content|
+|8|S5295Nr4.1|Read 1|Sequence Duplication Levels, Per sequence GC content|
+|8|S5295Nr4.2|Read 2|Sequence Duplication Levels, Per sequence GC content|
+|9|S5295Nr5.1|Read 1|Sequence Duplication Levels|
+|9|S5295Nr5.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|10|S5295Nr6.1|Read 1|Sequence Duplication Levels|
+|10|S5295Nr6.2|Read 2|Sequence Duplication Levels, Per sequence GC content|
+|11|S5295Nr7.1|Read 1|Sequence Duplication Levels|
+|11|S5295Nr7.2|Read 2|Sequence Duplication Levels, Per sequence GC content, Overrepresented sequences|
+|12|S5295Nr8.1|Read 1|Sequence Duplication Levels|
+|12|S5295Nr8.2|Read 2|Sequence Duplication Levels, Per sequence GC content|
 
 <h2>Labnotes</h2>
 Downloaded RNA-seq data. <br />
@@ -110,9 +126,13 @@ S5295Nr8.2.fastq.gz => S5295Nr8_S8_L001_R2_001.fastq.gz
 Furthermore:
 * Checked the md5sums
 * Ran `spaceranger sitecheck` and `spaceranger testrun` successfully. Spaceranger v 1.3.1. (as in the case of analysis of the 1st L-DOPA slide).
-* Ran the whole analysis in pipe (with \ new lines and && operator - sequentially). Start at 11:11 local time (10:11 on the server).
-* Ran the fastq - on the local machine.
+* Ran the whole analysis in pipe (with `\ ` new lines and `&&` operators - sequentially). Start at 11:11 local time (10:11 on the server), end at 5:21 (4:21 on the server) => took about 18 hours!
+* Planned to perform `spaceranger aggr` on all 16 libraries from Visium (slides: risperidone 1 and 1-3 L-DOPA) at 4 am, but during that time the `count` analyses were still undergoing so it failed. The code: `echo "spaceranger aggr --id=aggr-ldopa123-risp --csv=aggr-ldopa123-risp.csv --normalize=mapped" | at 4am tomorrow`
+* Ran the FastQC - on the local machine. Unzipping all files with `unzip *.zip` was not successful so I had to perform unzipping on each file separately the next day.
 
+### 2022-03-11
+Ran `spaceranger aggr` function as mentioned above. All analyses script are presented [here](https://gist.github.com/annaradli/5c34230b8ccf3c54c64fc89b5956bef3).
+Full fastQC analysis is [here](https://gist.github.com/annaradli/89a6d08b691c704a2349eecd65232887).
 
 ### Software 
 * spaceranger v1.3.1
