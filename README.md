@@ -23,7 +23,7 @@
 
 
 
-### RNA-seq samples summary 
+### fastQC analysis results
 |Library ID|Filename|Sequence type|FastQC failed parameters|
 |---|---|---|---|
 |1|S5023Nr1.1|Read 1|Sequence Duplication Levels|
