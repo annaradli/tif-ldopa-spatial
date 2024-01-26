@@ -12,7 +12,7 @@
 |3|C1| 3-2 | mutant L-DOPA  |1| C3|S5023Nr3|1|V11A27-406|
 |4|D1| 3-4 | mutant saline |1| D3 |S5023Nr4|1|V11A27-406|
 |5|A1|5-1|mutant saline |1|A4|S5295Nr1|2|V11A27-285|
-|6|B1|5-3|mutant L-DOPA|1|B4|S5295Nr2|2|V11A27-285|
+|6|B1|5-3|mutant L-DOPA but control phenotype!|1|B4|S5295Nr2|2|V11A27-285|
 |7|C1|6-1|mutant L-DOPA|2|C4|S5295Nr3|2|V11A27-285|
 |8|D1|6-2|control saline|2|D4|S5295Nr4|2|V11A27-285|
 |9|A1|11-1|control saline |2|A5|S5295Nr5|3|V11U14-024|
