@@ -1,3 +1,10 @@
+#first, test spaceranger
+$ spaceranger --version
+spaceranger spaceranger-1.3.1
+$ spaceranger sitecheck > sitecheck.txt
+$ spaceranger testrun --id=tiny
+
+
 #slide 1
 
 $ spaceranger count --id=S5023Nr1 --transcriptome=/tif-ldopa/opt/refdata-gex-mm10-2020-A/ --fastqs=/tif-ldopa/data --image=/tif-ldopa/data/slide1-area1-ed-test.tif --slide=V11A27-406 --area=A1 --loupe-alignment=/tif-ldopa/data/V11A27-406-A1.json --localcores=8 --localmem=64 --sample=S5023Nr1 
