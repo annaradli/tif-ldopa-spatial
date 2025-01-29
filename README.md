@@ -53,20 +53,25 @@ graph TD;
 ```
 
 ### Code and resources overview
-(TODO)
-1. [fastQC reads quality check]
-2. [spaceranger count]
+
+1. [fastQC reads quality check](https://github.com/annaradli/tif-ldopa-slide1/blob/main/fastqc.sh)
+2. [initial spaceranger count](https://github.com/annaradli/tif-ldopa-slide1/blob/main/spaceranger-count.sh)
 3. [merging .bam files with samtools]
 4. [filtering peaks with MACS3]
 5. [creating a new reference transcriptome from the filtered peaks with spaceranger mkref]
-6. [unsupervised clustering with Seurat and plotting UMAP]
-7. [finding cluster markers with Seurat]
-8. [defining functions for on-section gene expression visualization]
-9. [visualization of the results on the sections]
-10. [statistical analyses]
-11. [data wrangling] for [heatmap visualization]
-12. [SeuratObject with assigned clusters]
-13. [.RData used for (11.)]
+6. [read alignment to the new reference transcriptome]
+7. [defining functions for on-section gene expression visualization and preprocessing for statistical analyses](https://github.com/annaradli/tif-ldopa-slide1/tree/main/preprocessing/functions)
+8. [create ldopa-reduced-correct.RData file with SeuratObject](https://github.com/annaradli/tif-ldopa-slide1/blob/main/ldopa-analysis.R)
+9. [create main-workspace.RData object for easier and faster work](https://github.com/annaradli/tif-ldopa-slide1/blob/main/create-main-workspace.R)
+10. [unsupervised clustering with Seurat and plotting UMAP](https://github.com/annaradli/tif-ldopa-slide1/blob/main/umap-and-section-visualization.R)
+11. [finding cluster markers with Seurat](https://github.com/annaradli/tif-ldopa-slide1/blob/main/find-cluster-markers.R)
+12. visualization of the results: [bar plots](https://github.com/annaradli/tif-ldopa-slide1/blob/main/bar-plots.R), [spatially defined spots assigned to clusters on a brain section](https://github.com/annaradli/tif-ldopa-slide1/blob/main/visualize-clusters-on-sections.R), [normalized gene expression of the spots on a brain section in a loop function](https://github.com/annaradli/tif-ldopa-slide1/blob/main/degs-sections-loop.R), [heatmap1](), [heatmap2]()
+13. [statistical analyses]() and [p<0.01 filtered results](https://github.com/annaradli/tif-ldopa-slide1/blob/main/results.tsv)
+15. [data enrichment analysis with enrichR](https://github.com/annaradli/tif-ldopa-slide1/blob/main/enrichr.R)
+16. [selected stats](https://github.com/annaradli/tif-ldopa-slide1/blob/main/selected-stats.R)
+17. [.RData source files containing SeuratObjects used for analyses and visualization can be also downloaded from the Zenodo project page](https://zenodo.org/records/14762864)
+
+
 
 ### fastQC analysis results
 |Library ID|Filename|Sequence type|FastQC failed parameters|
