@@ -53,6 +53,7 @@ graph TD;
 ```
 
 ### Code and resources overview
+(TODO)
 1. [fastQC reads quality check]
 2. [spaceranger count]
 3. [merging .bam files with samtools]
