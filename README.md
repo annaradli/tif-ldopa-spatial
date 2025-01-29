@@ -52,7 +52,7 @@ graph TD;
     id7 --> id8["R: statistical analysis (t-tests with Benjamini-Hochberg correction), gene and cluster visualization with custom-made functions"] 
 ```
 
-### Code and resources overview /TODO/
+### Code and resources overview
 1. [fastQC reads quality check]
 2. [spaceranger count]
 3. [merging .bam files with samtools]
