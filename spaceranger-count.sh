@@ -1,6 +1,6 @@
 #slide 1
 
-$spaceranger count --id=S5023Nr1 --transcriptome=/tif-ldopa/opt/refdata-gex-mm10-2020-A/ --fastqs=/tif-ldopa/data --image=/tif-ldopa/data/slide1-area1-ed-test.tif --slide=V11A27-406 --area=A1 --loupe-alignment=/tif-ldopa/data/V11A27-406-A1.json --localcores=8 --localmem=64 --sample=S5023Nr1 
+$ spaceranger count --id=S5023Nr1 --transcriptome=/tif-ldopa/opt/refdata-gex-mm10-2020-A/ --fastqs=/tif-ldopa/data --image=/tif-ldopa/data/slide1-area1-ed-test.tif --slide=V11A27-406 --area=A1 --loupe-alignment=/tif-ldopa/data/V11A27-406-A1.json --localcores=8 --localmem=64 --sample=S5023Nr1 
 > && spaceranger count --id=S5023Nr2 --transcriptome=/tif-ldopa/opt/refdata-gex-mm10-2020-A/ --fastqs=/tif-ldopa/data --image=/tif-ldopa/data/slide1-area2-ed.tif --slide=V11A27-406 --area=B1 --loupe-alignment=/tif-ldopa/data/V11A27-406-B1.json --localcores=8 --localmem=64 --sample=S5023Nr2 
 > && spaceranger count --id=S5023Nr3 --transcriptome=/tif-ldopa/opt/refdata-gex-mm10-2020-A/ --fastqs=/tif-ldopa/data --image=/tif-ldopa/data/slide1-area3-ed.tif --slide=V11A27-406 --area=C1 --loupe-alignment=/tif-ldopa/data/V11A27-406-C1.json --localcores=8 --localmem=64 --sample=S5023Nr3 
 > && spaceranger count --id=S5023Nr4 --transcriptome=/tif-ldopa/opt/refdata-gex-mm10-2020-A/ --fastqs=/tif-ldopa/data --image=/tif-ldopa/data/slide1-area4.tif --slide=V11A27-406 --area=D1 --loupe-alignment=/tif-ldopa/data/V11A27-406-D1.json --localcores=8 --localmem=64 --sample=S5023Nr4
