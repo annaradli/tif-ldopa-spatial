@@ -1,7 +1,7 @@
 # tif-ldopa-slides
 
 <h2>Description of the project</h2>
-This GitHub repository cointains code used for the analysis of data and information about the project aimed at deciphering L-DOPA-induced changes in gene expression in the forebrain of dopamine-depleted mice (a model of Parkinson's disease), using spatial transcriptomics. <br />
+This GitHub repository contains code used for the analysis of data and information about the project aimed at deciphering L-DOPA-induced changes in gene expression in the forebrain of dopamine-depleted mice (a model of Parkinson's disease), using spatial transcriptomics. <br />
 
 Spatial transcriptomics method: 10xGenomics' Visium <br />
 Model organism: Mus musculus, TIF-IADATCreERT2 strain <br />
